@@ -8,3 +8,4 @@ const helloWorld=()=>{
 helloWorld()
 
 console.log("testing git checkout ")
+console.log('testinh merge command')
