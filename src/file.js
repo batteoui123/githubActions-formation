@@ -18,3 +18,5 @@ function hello(name){
 
 hello('oussama')
 
+hello("amine")
+
