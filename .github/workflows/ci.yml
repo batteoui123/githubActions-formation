@@ -1,13 +1,14 @@
-name: CI
-on: 
-    push:
-        branches: main
-jobs:
-    build: 
-        runs-on: ubunutu-latest
+name: Mon Premier Robot
 
-        steps: 
-            - uses: actions/checkout@v4
-            - name: run a one line script
-              run: echo "hello world , "
-  
+on: [push]
+
+jobs:
+  dire-bonjour:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Dire Bonjour
+      run: echo "👋 Bonjour ! Votre code vient d'arriver !"
+      
+    - name: Montrer les fichiers
+      run: ls -la
